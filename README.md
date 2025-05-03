@@ -2,14 +2,14 @@
 
 - **voting-system/**
   - **contracts/**
-    - `PrivateVoting.sol` *Solidity smart contract (Step 2)*
+    - `PrivateVoting.sol` *Solidity smart contract*
   - **scripts/**
     - `deploy.js` *Deployment script*
   - **test/**
     - `PrivateVoting_test.js` *Test script*
   - `hardhat.config.js` *Hardhat configuration file*
   - **schnorr_prover/**
-    - `schnorr_prover.py` *Python script (this project)*
+    - `schnorr_prover.py` *Python script*
     - `vote.py` *Python script interacting with the smart contract*
 
 # How to Deploy and Test Contract
