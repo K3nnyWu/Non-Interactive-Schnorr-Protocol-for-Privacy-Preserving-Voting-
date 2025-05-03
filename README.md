@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+# Project Directory Structure
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+- **voting-system/**
+  - **contracts/**
+    - `PrivateVoting.sol` *Solidity smart contract (Step 2)*
+  - **scripts/**
+    - `deploy.js` *Deployment script*
+  - **test/**
+    - `PrivateVoting_test.js` *Test script*
+  - `hardhat.config.js` *Hardhat configuration file*
+  - **schnorr_prover/**
+    - `schnorr_prover.py` *Python script (this project)*
+    - `vote.py` *Python script interacting with the smart contract*
 
-Try running some of the following tasks:
+# How to Deploy and Test Contract
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+1. **Compile Contract:**
+   ```bash
+   npx hardhat compile
