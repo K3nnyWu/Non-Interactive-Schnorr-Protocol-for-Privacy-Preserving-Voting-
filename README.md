@@ -17,3 +17,12 @@
 1. **Compile Contract:**
    ```bash
    npx hardhat compile
+2. **Deploy Contract:**
+   ```bash
+   npx hardhat run scripts/deploy.js --network localhost
+3. **Start Hardhat Node:**
+   ```bash
+   npx hardhat node
+4. **Vote:**
+   ```bash
+   python vote.py
